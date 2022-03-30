@@ -2,6 +2,7 @@
     <wb-module deploy-name="jspClass">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/오유경 202180122"/>
         <property name="context-root" value="jspClass"/>
         <property name="java-output-path" value="/jspClass/build/classes"/>
     </wb-module>
