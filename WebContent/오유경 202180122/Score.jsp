@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h3>여러분의 성적점수를 입력해주세요</h3>
-	<form action ="result.jsp" method="get">
+	<form action ="Result.jsp" method="get">
 		국어:<input type="text" name="kor"><br>
 		영어:<input type="text" name="eng"><br>
 		수학:<input type="text" name="math"><br>
