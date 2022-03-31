@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="css/bootstrap.css">
 <title>회원가입 성공화면</title>
 </head>
 <body>
@@ -14,10 +15,12 @@
 		String userName= (request.getParameter("userName"));	
 		
 	%>
-	<div style="text-align:center;">
+	<div style="text-align:center;" class="jumbotron" style="padding-top:20px";>
 		<div>당신이 입력한 아이디는 <%=userID %> 입니다 </div>
 		<div>당신이 입력한 비밀번호는 <%=userPassword %> 입니다</div>
 		<div>당신이 입력한 이름은  <%=userName %> 입니다</div>		
 	</div>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
 </body>
 </html>
