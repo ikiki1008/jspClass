@@ -8,12 +8,12 @@
 <title>회원가입</title>
 </head>
 <body>
+<br><br>
 	<form action ="JoinAction.jsp" method="get">
 	<div class="container" style="text-align:center;">
 		<div class="col-lg-4"></div>
 		<div class="col-lg-4">
 			<div class="jumbotron" style="padding-top:20px";>
-			
 					<h3 style="text-align:center;">회원가입</h3>
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="아이디" name="userID">
@@ -28,7 +28,6 @@
 						<option>학교에서 추천</option>
 						<option>웹 서치</option>
 						<option>지인의 추천</option>
-			
 					</select>
 					<div class="form-group" style="text-align : center;"></div><br>
 					<input type="submit" class="btn btn-primary form-control" value="회원가입">
