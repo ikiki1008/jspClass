@@ -19,11 +19,17 @@
 						<input type="text" class="form-control" placeholder="아이디" name="userID">
 					</div>
 					<div class="form-group">
-						<input type="password" class="form-control" placeholder="password" name="userPassword">
+						<input type="password" class="form-control" placeholder="비밀번호" name="userPassword">
 					</div>
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="이름" name="userName">
 					</div>
+					<select name="selectAnswer">이 사이트를 알게 된 경로
+						<option>학교에서 추천</option>
+						<option>웹 서치</option>
+						<option>지인의 추천</option>
+			
+					</select>
 					<div class="form-group" style="text-align : center;"></div><br>
 					<input type="submit" class="btn btn-primary form-control" value="회원가입">
 				</form>
