@@ -31,10 +31,10 @@
 					</select>
 					<div class="form-group" style="text-align : center;"></div><br>
 					<input type="submit" class="btn btn-primary form-control" value="회원가입">
-				</form>
 			</div>
 		</div>
 	</div>
+	</form>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 </body>
