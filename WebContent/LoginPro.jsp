@@ -20,7 +20,7 @@
 	            <td><input name="id"></td>
 	        </tr>
 	        <tr>
-	            <td>비밀번호</td>
+	            <td>비밀 번호</td>
 	            <td><input name="pwd"></td>
 	        </tr>
 	        <tr>
