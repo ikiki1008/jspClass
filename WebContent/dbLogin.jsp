@@ -6,7 +6,6 @@
 <%@ page import = "java.sql.ResultSet" %>
 <%@ page import = "java.sql.SQLException" %>
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,10 +23,10 @@
 	
 	Class.forName("org.mariadb.jdbc.Driver");
 	
-	String user="root";
+	String user="yu";
 	String password="1111";
-	String url="jdbc:mariadb://localhost:3308/yudb";
-	Connection con = DriverManager.getConnection(url, user, password);
+	String url="jdbc:mariadb://localhost:3308/yu";
+	Connection con = DriverManager.getConnection(user, password, url);
 	
 	//db connection part
 	String sql = "insert into LoginPro(id,pwd,address,email) values(?,?,?,?)"; //connect to loginPro table
@@ -46,5 +45,5 @@
 	
 	%>
 </body>
-	<h1><%=i %>>가입이 완료되었습니다.</h1>
+	<h1><%=i %>가입이 완료되었습니다.</h1>
 </html>
