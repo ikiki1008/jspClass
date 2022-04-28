@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
-	<h3 style="text-align:center;">게시판 글 출력 확인하기</h3>
+	<h3 style="text-align:center;">게시판 목록</h3>
 	<%
 		String title = (request.getParameter("title"));
 		String content = (request.getParameter("content"));
